@@ -19,6 +19,32 @@ body{
     padding-left: 60px;
 }
 
+
+hr{
+    width:60%;
+}
+
+
+
+.sobre_mim{
+     text-align: center;
+     padding: 20px;
+}
+
+
+
+.sobre_mim h2{
+    color: white;
+    font-size: 30px;
+}
+
+
+.sobre_mim  article{
+      align-content: center;
+      width: 60%;
+      color: rgba(255, 255, 255, 0.829);
+}
+
 .habilidades{
     margin-top: 120px;
     text-align: center;
@@ -49,5 +75,14 @@ body{
 
 .habilidades img{
     height: 113px;
+}
+
+.projetos_{
+    text-align: center;
+}
+
+.projetos_ h2{
+    font-size: 30px;
+    color: white;
 }
 
