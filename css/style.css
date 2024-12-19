@@ -29,6 +29,8 @@ hr{
 .sobre_mim{
      text-align: center;
      padding: 20px;
+     height: 40%;
+     margin-bottom: 200px;
 }
 
 
@@ -48,25 +50,52 @@ hr{
 .habilidades{
     margin-top: 120px;
     text-align: center;
-    height: 550px;
+    height: 60%;
 }
 
 
 .habilidades h2{
     color: white;
     font-size: 30px;
+    margin-bottom: 80px;
 }
 
 .habilidades .hl_principa{
-    align-items: center;
-    display: flex; 
-    padding-left: 32%;  
+    margin: 15%;
+    display:flex; /*flex aqui - novo*/
+    justify-content:space-around; /*e distribuição de espaço aqui - novo*/
+    margin-top: -0%;
+    justify-content: center;
+}
+
+.div_p{
+    padding: 30px;
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 140px;
+    height: 100px;
+    margin-left: 20px;
+    transition: 1s;
+}
+
+
+.div_p:hover{
+    margin-top: -25px;
+    border: solid 2px #00ffe3;
+}
+
+.hl_secundaria div{
+    padding: 30px;
+    border: solid 2px white;
+    border-radius: 5px; 
 }
 
 .habilidades .hl_secundaria{
-    align-items: center;
-    display: flex; 
-    padding-left: 36%; 
+    margin: 15%;
+    display:flex; /*flex aqui - novo*/
+    justify-content:space-around; /*e distribuição de espaço aqui - novo*/
+    margin-top: -15%;
+    justify-content: center;
 }
 
 .habilidades div{
