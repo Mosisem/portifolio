@@ -187,8 +187,11 @@ hr{
     width: 350px;
     border-radius: 6px;
     justify-content: left;
-    margin-top: -200px;
+    margin-top:60px;
     margin-left: -390px;
+    position: relative;
+    padding:4px;
+    border: solid  2px rgba(255, 255, 255, 0.384) ;
 }
 
 .projetos_ ul{
@@ -196,27 +199,40 @@ hr{
     flex-direction: column;
     align-items: start;
     margin-top: 8%;
+
     justify-content: left;
     margin-bottom: -10%;
 }
 
 .projetos_ div{
-    margin: 30px;
+    margin: 20px;
     border-radius: 5px;
-    height: 210px;
+    height: 240px;
     padding: 0px;
     margin-left: -70px;
+
 }
 
 .projetos_ p{
     font-size: 15px;
     text-align: right;
     margin-left: 600px;
-    margin-top: 30px;
+    margin-top:-176px;
     width: 500px;
     color: rgba(255, 255, 255, 0.829);
     padding: 40px;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.384) ;
     border-radius: 3px;
 }
 
+
+
+.b_projetos{
+    margin-top:10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    border: 2px solid #00ffe3;
+}
