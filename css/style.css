@@ -199,7 +199,6 @@ hr{
     flex-direction: column;
     align-items: start;
     margin-top: 8%;
-
     justify-content: left;
     margin-bottom: -10%;
 }
@@ -210,7 +209,6 @@ hr{
     height: 240px;
     padding: 0px;
     margin-left: -70px;
-
 }
 
 .projetos_ p{
@@ -234,5 +232,53 @@ hr{
     background-color: black;
     border: none;
     border-radius: 25px;
-    border: 2px solid #00ffe3;
+    border: 2px solid white;
+    
+}
+
+@media (max-width: 814px) {
+      .projetos_ div{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 4%;
+
+        margin-left: -12px;
+        width:100%;
+        height:500px;
+      }
+
+      .projetos_ p{
+        font-size: 13px;
+        text-align: center;
+        margin-top: -40px;
+        margin-right:600px;
+        color: rgba(255, 255, 255, 0.829);
+        padding: 20px;
+        border: 2px solid rgba(255, 255, 255, 0.384) ;
+        border-radius: 3px;
+        width: 55%;
+        height:100px;
+      }
+
+      .projeto_img{
+        width: 350px;
+        border-radius: 6px;
+        justify-content: left;
+        margin:30px;
+        padding:4px;
+        border: solid  2px rgba(255, 255, 255, 0.384) ;
+        margin-bottom: 100px;
+    }
+
+    .projetos_ ul{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -10%;
+    }
+    
+
 }
