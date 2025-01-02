@@ -14,3 +14,11 @@ function rediret_2(){
 function rediret_3(){
     window.open('https://mosisem.github.io/mercado_livre/')
 }
+
+function curriculo_(){
+    window.open('doc\\Currículo Simples Azul e Cinza (1).pdf')
+}
+
+function git(){
+    window.open('https://github.com/Mosisem')
+}
