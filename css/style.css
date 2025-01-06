@@ -519,3 +519,52 @@ body{
     }
 
 }
+
+.formacoes h2{
+    font-family:"Poppins",sans-serif;
+    font-weight:200;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-left: 1%;
+    margin-bottom: 8%;
+}
+
+.formacoes{
+    margin-top: 10%;
+    height: 500px;
+    padding: 10%;
+}
+
+.fs_fileira{
+    display: flex;
+    justify-content:space-around; 
+    padding: 20px;
+   
+    width: 90%;
+}
+
+.fs_fileira_2{
+    display: flex;
+    justify-content:space-around; 
+    padding: 20px;
+  
+    width: 60%;
+}
+
+.formacoes  div{
+    background-color: black;
+    height: 130px;
+    width:200px;
+    padding: 17px;
+    border-radius: 5px;
+    border: 2px solid  white;
+}
+
+.formacoes h3{
+    color: white;
+}
+
+.formacoes p{
+   color: rgba(255, 255, 255, 0.829);;   
+}
