@@ -631,9 +631,11 @@ body{
    .formacoes{
       padding: 5%;
       height: 50%;
+      width: 85%;
       justify-content: center;
       margin-top: 15%;
-      
+      margin-left: 3%;
+      background-color: red;
    }
 
    .formacoes div{
