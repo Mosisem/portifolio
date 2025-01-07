@@ -1,5 +1,5 @@
 ScrollReveal().reveal('.projetos_',{
-    origin:`bottom`,
+    origin:`left`,
     distance:'20%',
     durarion:23000,
     delay:685
@@ -20,6 +20,13 @@ ScrollReveal().reveal('.sobre_mim',{
 });
 
 ScrollReveal().reveal('.habilidades',{
+    origin:`left`,
+    distance:'10%',
+    durarion:23000,
+    delay:680
+});
+
+ScrollReveal().reveal('.formacoes',{
     origin:`left`,
     distance:'10%',
     durarion:23000,
