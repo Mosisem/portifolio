@@ -319,20 +319,47 @@ body{
 }
 
 @media (max-width: 814px) {
+    .sobre_mim{
+        text-align: center;
+        padding: 10px;
+        height: 40%;
+        margin-left: 12%;
+        width: 70%;
+   }
+   
+   
+   
+   
+   .sobre_mim h2{
+       color: white;
+       font-family:"Poppins",sans-serif;
+       font-weight:200;
+       font-size: 20px;
+   }
+   
+   
+   .sobre_mim  article{
+         align-content: center;
+         width: 100%;
+         color: rgba(255, 255, 255, 0.829);
+         
+         font-size: 12px;
+   }
+   
+
     .habilidades{
         margin-top: 10%;
+        width: 75%;
+        height: 40%;
+        margin-bottom: 30%;
     }
 
     .hl_principa{
         margin-top: -40px;
-        margin-left: -1%;
+        margin-left: 0%;
         padding-left: 0px;
     }
 
-    .sobre_mim{
-        margin-bottom: 20px;
-    }
-    
 }
 
 .div_s{
@@ -355,7 +382,7 @@ body{
 }
 
 .habilidades div{
-    margin: 40px;
+    margin: 10px;
 }
 
 .habilidades img{
@@ -376,11 +403,18 @@ body{
 }
 
 @media (max-width: 814px) {
+    .projetos_ h2{
+        font-family:"Poppins",sans-serif;
+        font-weight:200;
+        font-size: 20px;
+        color: white;
+    }
+
     .sobre_mim h2{
-       font-size: 20px;
+       font-size: 17px;
     }
     .habilidades h2{
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .projetos_{
@@ -478,9 +512,8 @@ body{
         justify-content: center;
         margin-bottom: 1%;
         margin-left: -12px;
-        width:100%;
-        height:400px;
-        background-color: yellow;
+        width:70%;
+        height:345px;
       }
 
       .projetos_ p{
@@ -493,7 +526,7 @@ body{
         border: 2px solid rgba(255, 255, 255, 0.384) ;
         border-radius: 3px;
         width: 45%;
-        height:125px;
+        height:145px;
       }
 
       .projeto_img{
@@ -503,7 +536,7 @@ body{
         margin:30px;
         padding:4px;
         border: solid  2px rgba(255, 255, 255, 0.384) ;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
     }
 
     .projetos_ ul{
@@ -512,7 +545,6 @@ body{
         align-items: center;
         justify-content: center;
         margin-bottom: -10%;
-        background-color: red;
     }
     
     .b_projetos{
@@ -526,7 +558,7 @@ body{
 .formacoes h2{
     font-family:"Poppins",sans-serif;
     font-weight:200;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     text-align: center;
     margin-left: 1%;
