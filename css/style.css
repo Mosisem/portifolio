@@ -517,7 +517,7 @@ body{
       }
 
       .projetos_ p{
-        font-size: 11px;
+        font-size: 9px;
         text-align: center;
         margin-top: -40px;
         margin-right:600px;
@@ -525,8 +525,8 @@ body{
         padding: 20px;
         border: 2px solid rgba(255, 255, 255, 0.384) ;
         border-radius: 3px;
-        width: 65%;
-        height:145px;
+        width: 85%;
+        height:85px;
       }
 
       .projeto_img{
