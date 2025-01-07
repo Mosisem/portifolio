@@ -625,7 +625,7 @@ body{
        width: 95%;
        height: 160px;
        padding: 4px;
-       
+
     }
 
    .formacoes{
@@ -633,7 +633,7 @@ body{
       height: 50%;
       justify-content: center;
       margin-top: 15%;
-
+      background-color: red;
    }
 
    .formacoes div{
@@ -641,7 +641,14 @@ body{
     height: 115px;
     width: 84px;
     margin-top: 15px;
-    margin: 5px;
+    margin: 2px;
+    border: none;
+    transition: 1.5s;
+   }
+
+   .formacoes div:hover{
+    margin-top: -2%;
+    background-color:#00ffe1be ;
    }
 
    .formacoes h3{
