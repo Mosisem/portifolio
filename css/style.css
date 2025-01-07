@@ -635,13 +635,13 @@ body{
       justify-content: center;
       margin-top: 15%;
       margin-left: 3%;
-      background-color: red;
+      
    }
 
    .formacoes div{
     justify-content: center;
-    height: 115px;
-    width: 84px;
+    height: 70px;
+    width: 70px;
     margin-top: 15px;
     margin: 2px;
     border: none;
@@ -657,14 +657,14 @@ body{
     color: white;
     font-family: "DM Sans", sans-serif;
     font-weight:400;
-    font-size: 11px;
+    font-size: 9px;
     margin-bottom: -5px;
     
    }
 
    .formacoes p{
     color: rgba(255, 255, 255, 0.829);;   
-    font-size: 10px;
+    font-size: 7px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
 
