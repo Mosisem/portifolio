@@ -558,17 +558,17 @@ body{
 .formacoes h2{
     font-family:"Poppins",sans-serif;
     font-weight:200;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     text-align: center;
-    margin-left: 1%;
-    margin-bottom: 8%;
+    margin-left: 10%;
+    margin-bottom: 5%;
 }
 
 .formacoes{
     margin-top: 10%;
     height: 500px;
-    padding: 10%;
+    padding: 5%;
 }
 
 .fs_fileira{
@@ -576,13 +576,15 @@ body{
     justify-content:space-around; 
     padding: 20px;
     width: 90%;
+    padding-left: 10%;
 }
 
 .fs_fileira_2{
     display: flex;
     justify-content:space-around; 
     padding: 20px;
-    width: 60%;
+    width: 90%;
+    padding-left: 10%;
 }
 
 .formacoes  div{
@@ -611,37 +613,35 @@ body{
     .fs_fileira{
        justify-content: center;
        display: flex;
-       flex-direction: column;
-  
-       padding: 6px;
-       width: 140px;
-       height: 420px;
-       margin-left: 32%;
+       padding: 4px;
+       width: 95%;
+       height: 160px;
+       
     }
 
     .fs_fileira_2{
         justify-content: center;
        display: flex;
-       flex-direction: column;
-    
-       width: 200px;
-       padding-left: 6px;
-       width: 125px;
-       height: 250px;
-       margin-left: 32%;
+       width: 95%;
+       height: 160px;
+       padding: 4px;
+       
     }
 
    .formacoes{
       padding: 5%;
       height: 50%;
       justify-content: center;
+      margin-top: 15%;
+
    }
 
    .formacoes div{
     justify-content: center;
-    height: 90px;
-    width: 100px;
+    height: 115px;
+    width: 84px;
     margin-top: 15px;
+    margin: 5px;
    }
 
    .formacoes h3{
@@ -649,6 +649,8 @@ body{
     font-family: "DM Sans", sans-serif;
     font-weight:400;
     font-size: 11px;
+    margin-bottom: -5px;
+    
    }
 
    .formacoes p{
@@ -656,4 +658,15 @@ body{
     font-size: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
+
+ .formacoes h2{
+    font-family:"Poppins",sans-serif;
+    font-weight:200;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 7%;
+    margin-bottom: 1%;
+}
 }
