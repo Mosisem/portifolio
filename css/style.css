@@ -188,15 +188,6 @@ body{
     justify-content:space-around;
     margin-bottom: 5px;
 }
-
-@keyframes float{
-	0%,100%{
-		transform:translatey(0)
-	}
-	50%{
-		transform:translatey(-30px)
-	}
-}
   
 
 #dev_{
@@ -569,6 +560,7 @@ body{
     margin-top: 10%;
     height: 500px;
     padding: 5%;
+    margin-bottom: 10%;
 }
 
 .fs_fileira{
@@ -594,6 +586,11 @@ body{
     padding: 17px;
     border-radius: 5px;
     border: 2px solid  white;
+    transition: 1s;
+}
+
+.formacoes div:hover{
+    margin-top: -2%;
 }
 
 .formacoes h3{
@@ -635,7 +632,6 @@ body{
       justify-content: center;
       margin-top: 15%;
       margin-left: 3%;
-      
    }
 
    .formacoes div{
@@ -645,7 +641,7 @@ body{
     margin-top: 15px;
     margin: 2px;
     border: none;
-    transition: 1.5s;
+    transition: 1.3s;
    }
 
    .formacoes div:hover{
@@ -677,5 +673,44 @@ body{
     margin-left: 1%;
     margin-top: 7%;
     margin-bottom: 1%;
+   }
 }
+
+.info_contato{
+
+ height: 90px;
+ width: 98.5%;
+ padding: 5px;
+ margin-left: 0.5%;
+}
+
+.info_contato div{
+     width: 80%;
+    margin-left: 10%;
+    padding-top: 5px;
+    color: white;
+}
+
+.primeir_f_contato{
+   
+    width: 35%;
+    margin-left: 50%;
+}
+
+.primeir_f_contato h3{
+    text-align: right;
+}
+
+.segunda_f_contato{
+     width: 13%;
+     margin-top: -80px;
+}
+
+.segunda_f_contato h3{
+    text-align:right;
+    width: 50%;
+}
+
+.segunda_f_contato a{
+    text-decoration: none;
 }
