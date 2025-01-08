@@ -682,35 +682,52 @@ body{
  width: 98.5%;
  padding: 5px;
  margin-left: 0.5%;
+
 }
 
 .info_contato div{
-     width: 80%;
-    margin-left: 10%;
+    width: 55%;
+    margin-left: 25%;
     padding-top: 5px;
     color: white;
+   
 }
 
 .primeir_f_contato{
+    width: 45%;
+    margin-left: 45%;
    
-    width: 35%;
-    margin-left: 50%;
+    
 }
 
 .primeir_f_contato h3{
+   
     text-align: right;
+    color: rgba(255, 255, 255, 0.829);;   
+    font-size: 16px;
+    width:350px;
+    margin-left: -40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .segunda_f_contato{
      width: 13%;
-     margin-top: -80px;
+     margin-top: -85px;
+   
 }
 
 .segunda_f_contato h3{
+   
     text-align:right;
-    width: 50%;
+    width: 73%;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.829);  
+    font-size:16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .segunda_f_contato a{
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.829);  
 }
