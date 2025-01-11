@@ -123,6 +123,10 @@ body{
     background-color: black;
 }
 
+body hr{
+    border-color: rgba(255, 255, 255, 0.384) ;
+}
+
 .sention_apresentacao h2{
     color: white;
     font-size: 35px;
@@ -223,6 +227,7 @@ body{
 }
 
 .hr_p{
+    background-color: black;
     width:55%;
 }
 
@@ -260,7 +265,7 @@ body{
     margin-top: 10%;
     text-align: center;
     height: 40%;
-    margin-left: 12%;
+    margin-left: 11%;
     width: 80%;
 }
 
@@ -271,7 +276,7 @@ body{
     font-family:"Poppins",sans-serif;
     font-weight:200;
     font-size: 30px;
-  
+  margin-left: 3%;
 }
 
 .habilidades .hl_principa{
@@ -285,7 +290,7 @@ body{
 
 .div_p{
     padding: 10px;
-    border: solid 2px white;
+    border: solid 2px rgba(255, 255, 255, 0.384) ;
     border-radius: 5px;
     width: 80px;
     height: 80px;
@@ -326,6 +331,7 @@ body{
        font-family:"Poppins",sans-serif;
        font-weight:200;
        font-size: 20px;
+       text-align: center;
    }
    
    
@@ -356,7 +362,7 @@ body{
 .div_s{
     
     padding: 10px;
-    border: solid 2px white;
+    border: solid 2px rgba(255, 255, 255, 0.384) ;
     width: 80px;
     height: 80px;
     border-radius: 5px;
@@ -391,6 +397,8 @@ body{
     font-weight:200;
     font-size: 30px;
     color: white;
+    text-align: center;
+    margin-left: 6%;
 }
 
 @media (max-width: 814px) {
@@ -678,11 +686,11 @@ body{
 
 .info_contato{
 
- height: 90px;
- width: 98.5%;
+ height: 120px;
+ width: 99.90%;
  padding: 5px;
- margin-left: 0.5%;
-
+ margin-left: -0.30%;
+ background-color: #141414;
 }
 
 .info_contato div{
@@ -731,3 +739,11 @@ body{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.829);  
 }
+
+footer{
+    margin-top: -15px;
+    margin-bottom: -48%;
+    text-align: center;
+    color: white;
+}
+
