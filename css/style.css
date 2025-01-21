@@ -259,6 +259,7 @@ body hr{
       align-content: center;
       width: 75%;
       color: rgba(255, 255, 255, 0.829);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .habilidades{
@@ -488,6 +489,8 @@ body hr{
     padding: 40px;
     border: 2px solid rgba(255, 255, 255, 0.384) ;
     border-radius: 3px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -745,5 +748,7 @@ footer{
     margin-bottom: -48%;
     text-align: center;
     color: white;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
