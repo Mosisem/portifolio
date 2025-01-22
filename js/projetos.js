@@ -16,9 +16,22 @@ function rediret_3(){
 }
 
 function curriculo_(){
-    window.open('doc\\Currículo Simples Azul e Cinza (1).pdf')
+    window.open('doc\\Currículo Simples Azul e Cinza.pdf')
 }
 
 function git(){
     window.open('https://github.com/Mosisem')
 }
+
+// removendo elementos
+
+
+var contato = window.document.getElementById('contato')
+
+if( contato.style.padding != "5px"){
+    document.getElementById('redes').remove()
+}else{
+
+}
+
+

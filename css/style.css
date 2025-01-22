@@ -706,9 +706,7 @@ body hr{
 
 .primeir_f_contato{
     width: 45%;
-    margin-left: 45%;
-   
-    
+    margin-left: 45%; 
 }
 
 .primeir_f_contato h3{
@@ -724,7 +722,6 @@ body hr{
 .segunda_f_contato{
      width: 13%;
      margin-top: -85px;
-   
 }
 
 .segunda_f_contato h3{
@@ -751,4 +748,72 @@ footer{
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+@media (max-width: 814px) {
+
+    .info_contato{
+        height: 120px;
+        width: 95%;
+        padding: 7px;
+        background-color: #141414;
+       }
+
+       .primeir_f_contato{
+        width: 95%;
+        padding-left: 19%;
+        margin-left: 0%;
+    }
+
+    .primeir_f_contato h3{
+   
+        text-align:left;
+        color: rgba(255, 255, 255, 0.829);;   
+        font-size: 11px;
+        width:100%;
+        margin-left: -40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .segunda_f_contato{
+        width: 40%;
+        margin-top: -85px;
+        margin-left: -165%;
+        margin-right: 5px;
+   }
+
+   .segunda_f_contato h3{
+   
+    text-align:center;
+    width: 73%;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.829);  
+    font-size:11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+footer{
+    margin-top: -15px;
+    margin-bottom: -130%;
+    text-align: center;
+    margin-left:-0.34% ;
+    height: 16px;
+    width: 98%;
+    color: white;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hr_final{
+    width: 70%;
+}
+
+center{
+    padding: 0%;
+}
+
+}
+
 
