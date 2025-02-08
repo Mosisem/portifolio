@@ -25,13 +25,22 @@ function git(){
 
 // removendo elementos
 
-
-var contato = window.document.getElementById('contato')
-
-if( contato.style.padding != "5px"){
+var nu_atu = Number(0)
+if (window.innerWidth <  814 ) {
+    
     document.getElementById('redes').remove()
-}else{
 
 }
+else{
+}
+
+function verificarTamanhoTela() {
+    const larguraTela = window.innerWidth;
+    if (larguraTela < 814) {
+        document.getElementById('redes').remove() 
+    }
+}
+
+  window.onload = verificarTamanhoTela;
 
 

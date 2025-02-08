@@ -81,41 +81,6 @@
     font-style: italic;
 }
   
-.poppins-regular-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-  
-.poppins-medium-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-}
-  
-.poppins-semibold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-}
-  
-.poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
-  
-.poppins-extrabold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-}
-  
-.poppins-black-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-}
 
 
 
@@ -698,10 +663,9 @@ body hr{
 
 .info_contato div{
     width: 55%;
-    margin-left: 25%;
+    margin-left: 2%;
     padding-top: 5px;
     color: white;
-   
 }
 
 .primeir_f_contato{
@@ -720,8 +684,9 @@ body hr{
 }
 
 .segunda_f_contato{
-     width: 13%;
+     width: 12%;
      margin-top: -85px;
+     margin-left: -70%;
 }
 
 .segunda_f_contato h3{
@@ -747,6 +712,7 @@ footer{
     color: white;
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 
@@ -759,10 +725,18 @@ footer{
         background-color: #141414;
        }
 
+       .info_contato div{
+        width: 55%;
+        margin-left: 25%;
+        padding-top: 5px;
+        color: white;
+    }
+
        .primeir_f_contato{
         width: 95%;
         padding-left: 19%;
         margin-left: 0%;
+
     }
 
     .primeir_f_contato h3{
@@ -792,18 +766,19 @@ footer{
     font-size:11px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 10px;
-}
+    }
 
-footer{
-    margin-top: -15px;
-    margin-bottom: -130%;
-    text-align: center;
-    margin-left:-0.34% ;
-    height: 16px;
-    width: 98%;
-    color: white;
-    font-size: 12px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    footer{
+        margin-top: -15px;
+        margin-bottom: -130%;
+        text-align: center;
+        margin-left:-0.34% ;
+        height: 16px;
+        width: 98%;
+        color: white;
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 }
 
 #hr_final{
@@ -814,6 +789,5 @@ center{
     padding: 0%;
 }
 
-}
 
 
