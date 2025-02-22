@@ -44,3 +44,14 @@ function verificarTamanhoTela() {
   window.onload = verificarTamanhoTela;
 
 
+function redirecionarParawhas() {
+    const numero = "5511997972562"; 
+    window.open(`https://wa.me/${numero}`)
+}
+
+
+function redirecionarParagmail(){
+    const destinatario = "mosisebastiaodasilva@gmail.com"
+   window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${destinatario}`)
+
+}

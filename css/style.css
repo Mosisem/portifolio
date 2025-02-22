@@ -165,7 +165,7 @@ body hr{
     margin-left: -320px;
 }
 
-@media (max-width: 824px) {
+@media (max-width: 814px) {
     .sention_apresentacao{
         padding: 2px;
     }
@@ -280,7 +280,7 @@ body hr{
     transition: 1s;
 }
 
-@media (max-width: 824px) {
+@media (max-width: 814px) {
     .sobre_mim{
         text-align: center;
         padding: 10px;
@@ -367,7 +367,7 @@ body hr{
     margin-left: 6%;
 }
 
-@media (max-width: 824px) {
+@media (max-width: 814px) {
     .projetos_ h2{
         font-family:"Poppins",sans-serif;
         font-weight:200;
@@ -471,7 +471,7 @@ body hr{
     
 }
 
-@media (max-width: 824px) {
+@media (max-width: 814px) {
       .projetos_ div{
         display:flex;
         flex-direction: column;
@@ -582,7 +582,7 @@ body hr{
 }
 
 
-@media (max-width: 824px) {
+@media (max-width: 814px) {
     .fs_fileira{
        justify-content: center;
        display: flex;
@@ -716,7 +716,7 @@ footer{
 }
 
 
-@media (max-width: 824px) {
+@media (max-width: 814px) {
 
     .info_contato{
         height: 120px;
