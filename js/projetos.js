@@ -45,7 +45,7 @@ function verificarTamanhoTela() {
 
 
 function redirecionarParawhas() {
-    const numero = "5511997972562"; 
+    const numero = "5511952934053"; 
     window.open(`https://wa.me/${numero}`)
 }
 
