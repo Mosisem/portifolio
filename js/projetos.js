@@ -16,7 +16,7 @@ function rediret_3(){
 }
 
 function curriculo_(){
-    window.open('doc\\Currículo Simples Azul e Cinza.pdf')
+    window.open('doc\\Mosi.João_Currículo.pdf.pdf')
 }
 
 function git(){
