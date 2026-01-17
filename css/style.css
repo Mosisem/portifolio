@@ -434,7 +434,8 @@ body hr{
     align-items: start;
     justify-content: center;
     margin-bottom: -10%;
-    background-color: red;
+    padding-left: 10%;
+    
 }
 
 .projetos_ div{
